@@ -1,0 +1,12 @@
+(/fruits/:id)
+- /fruits/0 - matches
+- /fruits/new - matches
+
+(/fruits/new)
+- fruits/0 - doesn't matches
+- fruits/new - matches
+
+
+/fruits/new
+/fruits/0
+["/fruits", "/fruits/new", "/fruits/:id"]
